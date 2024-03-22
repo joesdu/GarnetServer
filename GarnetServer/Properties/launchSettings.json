@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GarnetServer": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
