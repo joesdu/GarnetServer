@@ -3,7 +3,7 @@
 FROM mcr.microsoft.com/dotnet/runtime:9.0-preview AS base
 USER app
 WORKDIR /app
-EXPOSE 8848
+EXPOSE 3278
 
 FROM mcr.microsoft.com/dotnet/sdk:9.0-preview AS build
 ARG BUILD_CONFIGURATION=Release
