@@ -1,2 +1,2 @@
-GarnetServer.exe --config-import-path ./garnet.conf
+GarnetServer.exe --config-import-path ./conf/garnet.conf
 cls

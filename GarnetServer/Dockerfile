@@ -21,4 +21,4 @@ RUN dotnet publish "./GarnetServer.csproj" -c $BUILD_CONFIGURATION -o /app/publi
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "GarnetServer.dll", "--config-import-path", "./garnet.conf"]
+ENTRYPOINT ["dotnet", "GarnetServer.dll", "--config-import-path", "./conf/garnet.conf"]
