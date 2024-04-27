@@ -1,7 +1,8 @@
 {
   "profiles": {
     "GarnetServer": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "commandLineArgs": "--config-import-path ./conf/garnet.conf"
     },
     "Container (Dockerfile)": {
       "commandName": "Docker"
