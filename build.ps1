@@ -1,4 +1,4 @@
-$gh = "ghcr.io/joesdu/";
+$base = "ghcr.io/joesdu/";
 $name="garnet" ;
 
 
