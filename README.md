@@ -3,13 +3,13 @@
 
 ### 使用 GitHub Packages
 
+- 从GitHub Packages拉取镜像
 ```bash
-# 从GitHub Packages拉取镜像
 docker pull ghcr.io/joesdu/garnet:latest
 ```
 
+- 本机快速启动镜像测试
 ```bash
-# 本机快速启动镜像测试
 docker run --name garnet -p 3278:3278 -d --rm -it -e TZ=Asia/Chongqing ghcr.io/joesdu/garnet:latest
 ```
 
