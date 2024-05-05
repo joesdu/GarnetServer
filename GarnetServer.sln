@@ -13,6 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决�
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{F3B187CC-5459-420F-8245-515D408340B5}"
+	ProjectSection(SolutionItems) = preProject
+		.github\release-drafter.yml = .github\release-drafter.yml
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{E69FBE82-08D4-4264-9111-7B5880D54531}"
 	ProjectSection(SolutionItems) = preProject
@@ -39,6 +42,4 @@ Global
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7EE81300-6F49-46F3-A891-2C9B48A815B6}
 	EndGlobalSection
-EndGlobal
-balSection
 EndGlobal
