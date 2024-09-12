@@ -1,0 +1,2 @@
+sc create garnet.service binPath= "%~dp0GarnetServer.exe --config-import-path %~dp0conf/garnet.conf" start= "delayed-auto" DisplayName= "Garnet Service"
+sc failure garnet.service reset= 0 actions= restart/5000/restart/5000/restart/5000

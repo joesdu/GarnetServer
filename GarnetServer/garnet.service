@@ -1,0 +1,16 @@
+[Unit]
+Description=Garnet Service
+
+[Service]
+# 使用的时候需要修改路径为自己的路径
+WorkingDirectory=/garnet
+ExecStart=dotnet /garnet/GarnetServer.dll --config-import-path ./conf/garnet.conf
+SyslogIdentifier=garnet.server
+Restart=always
+RestartSec=5
+KillSignal=SIGINT
+Environment=ASPNETCORE_ENVIRONMENT=Production
+Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
+
+[Install]
+WantedBy=multi-user.target
